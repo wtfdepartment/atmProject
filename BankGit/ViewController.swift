@@ -30,6 +30,7 @@ class ViewController: UIViewController {
         locationManger.requestAlwaysAuthorization()
         
         mapView.delegate = self
+        self.view.backgroundColor = .red 
 
     }
     
